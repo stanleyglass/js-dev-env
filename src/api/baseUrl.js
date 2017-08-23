@@ -1,5 +1,5 @@
 export default function getBaseUrl() {
-	return getQueryStringParameterbyName('useMockApi') ? 'http://localhost:3001/' : '/';
+	return getQueryStringParameterbyName('useMockApi') ? 'http://localhost:3001/' : 'https://blooming-wave-37452.herokuapp.com/';
 }
 
 function getQueryStringParameterbyName(name, url) {
